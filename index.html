@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header{
+    background-color: aqua;
+    height: 8.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+    .header {
+        display: flex;
+        background-color: aqua;
+        justify-content: space-between;
+    }
+    pre {
+            margin-top: 1rem;
+            font-size: 3vw;
+        } 
+
+
+    
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+        
+    
+    .search input[type=text]{
+            width:300px;
+            height:25px;
+            border-radius:25px;
+            border: none;
+ 
+        }
+         
+        .search{
+            float:right;
+            margin:7px;
+ 
+        }
+         
+        .search button{
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+    .container {
+        display: flex;
+        /*
+    display: grid;
+    background-color: antiquewhite;
+    grid-column-gap: 8px ;
+    grid-row-gap:;
+    grid-template-columns: 56px auto;*/
+    }
+
+    .box1 {
+        border-style: solid;
+        border-color: antiquewhite;
+        border-width: 5px 3px 0px 0px;
+        background-color: aqua;
+        height: 83vh;
+        width: 60vh;
+    }
+
+    .box2 {
+        border-style: solid;
+        border-color: antiquewhite;
+        border-width: 6px 0px 0px 3px;
+        background-color: rgb(178, 240, 240);
+        width: 346vh;
+    }
+
+    footer {
+        display: flex;
+        background-color: black;
+        height: 36px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last,
+    p {
+        color: aliceblue;
+    }
+    .bim{
+            height: 4rem;
+            width: 15rem;
+            background-color: rgb(55, 33, 7);
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+        .csit{
+            height: 4rem;
+            width: 15rem;
+            background-color: rgb(82, 72, 60);
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+        .bca{
+            height: 4rem;
+            width: 15rem;
+            background-color: rgb(22, 151, 110);
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+        .bbs{
+            height: 4rem;
+            width: 15rem;
+            background-color: rgb(3, 59, 123);
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+        .bhm{
+            height: 4rem;
+            width: 15rem;
+            background-color: rgb(127, 6, 103);
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+        .bim:hover, .bca:hover, .bhm:hover, .bbs:hover, .csit:hover{
+            background-color: aquamarine;
+        }
+</style>
+<!-- <header>
+    <div class="head">
+        <div class="logo">
+        <img src="logo.png" alt=""></div>
+        <p2>HIMALAYA DARSHAN COLLEGE</p2>
+        <p3>search</p3>
+        </div>
+    </header> -->
+<header>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="college logo">
+
+        </div>
+        <div class="items">
+            <pre>Himalaya Darshan college</pre>
+        </div>
+        <div class="search">
+             
+            <form action="#">
+                <input type="text"
+                    placeholder=" Search "
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+</header>
+<div class="navi">
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      
+</div>
+    
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="bim">BIM</div>
+            <div class="csit">CSIT</div>
+            <div class="bca">BCA</div>
+            <div class="bbs">BBS</div>
+            <div class="bhm">BHM</div>
+        </div>
+        <div class="box2">box2</div>
+    </div>
+</body>
+<footer>
+    <div class="last">
+        <p>copyright: Bsc.Csit 2077</p>
+    </div>
+</footer>
+
+</html>
